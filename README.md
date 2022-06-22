@@ -6,12 +6,12 @@
 
 ---
 
-### Menu-screen
+### Menu screen for users
 <img src="Menu-screen.png" width=200> <img src="img/Menu-screen.png" width=200>
 
 ---
 
-### Demo
-<img src="img/Demo.gif" width=650>
+### Menu screen for Admin 
+<img src="img/Menu-admin.jpg" width=650>
 
 ---
