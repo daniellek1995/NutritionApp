@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/eden_logo"
+        android:layout_width="150dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/NewAccountTitle"
+        android:layout_width="163dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="יצירת משתמש חדש"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eden_logo" />
+
+    <EditText
+        android:id="@+id/FullName"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/bottom_bar"
+        android:ems="10"
+        android:foreground="@android:drawable/button_onoff_indicator_off"
+        android:hint="שם מלא"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NewAccountTitle"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/bottom_bar"
+        android:ems="10"
+        android:hint="אימייל"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/bottom_bar"
+        android:ems="10"
+        android:hint="סיסמא"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="להרשמה"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+    <TextView
+        android:id="@+id/LoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="כבר יש לך חשבון? התחברות כאן"
+        android:textAlignment="center"
+        android:textColor="#5B6CCA"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterBtn" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/bottom_bar"
+        android:ems="10"
+        android:hint="טלפון"
+        android:inputType="phone"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FullName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

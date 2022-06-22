@@ -1,0 +1,231 @@
+com/example/nutritionapp/Model/ContactsCallback.java
+ com.example.nutritionapp.model.ContactsCallback
+com/example/nutritionapp/databinding/FragmentMainMenuBinding.java
+ com.example.nutritionapp.databinding.FragmentMainMenuBinding
+com/example/nutritionapp/Model/MyFireStoreHandler.java
+ com.example.nutritionapp.model.MyFireStoreHandler
+ com.example.nutritionapp.model.MyFireStoreHandler$1
+ com.example.nutritionapp.model.MyFireStoreHandler$10
+ com.example.nutritionapp.model.MyFireStoreHandler$11
+ com.example.nutritionapp.model.MyFireStoreHandler$12
+ com.example.nutritionapp.model.MyFireStoreHandler$13
+ com.example.nutritionapp.model.MyFireStoreHandler$14
+ com.example.nutritionapp.model.MyFireStoreHandler$15
+ com.example.nutritionapp.model.MyFireStoreHandler$16
+ com.example.nutritionapp.model.MyFireStoreHandler$17
+ com.example.nutritionapp.model.MyFireStoreHandler$18
+ com.example.nutritionapp.model.MyFireStoreHandler$19
+ com.example.nutritionapp.model.MyFireStoreHandler$2
+ com.example.nutritionapp.model.MyFireStoreHandler$20
+ com.example.nutritionapp.model.MyFireStoreHandler$21
+ com.example.nutritionapp.model.MyFireStoreHandler$22
+ com.example.nutritionapp.model.MyFireStoreHandler$23
+ com.example.nutritionapp.model.MyFireStoreHandler$3
+ com.example.nutritionapp.model.MyFireStoreHandler$4
+ com.example.nutritionapp.model.MyFireStoreHandler$5
+ com.example.nutritionapp.model.MyFireStoreHandler$6
+ com.example.nutritionapp.model.MyFireStoreHandler$7
+ com.example.nutritionapp.model.MyFireStoreHandler$8
+ com.example.nutritionapp.model.MyFireStoreHandler$9
+ com.example.nutritionapp.model.MyFireStoreHandler$RecipesCallback
+ com.example.nutritionapp.model.MyFireStoreHandler$RequestCallback
+ com.example.nutritionapp.model.MyFireStoreHandler$RequestDataCallback
+com/example/nutritionapp/databinding/ActivityRegisterBinding.java
+ com.example.nutritionapp.databinding.ActivityRegisterBinding
+com/example/nutritionapp/ShowWeightProgressActivity.java
+ com.example.nutritionapp.ShowWeightProgressActivity
+ com.example.nutritionapp.ShowWeightProgressActivity$1
+ com.example.nutritionapp.ShowWeightProgressActivity$2
+com/example/nutritionapp/MenuFragmentDirections.java
+ com.example.nutritionapp.MenuFragmentDirections
+ com.example.nutritionapp.MenuFragmentDirections$1
+ com.example.nutritionapp.MenuFragmentDirections$ActionMenuFragmentToStatusFragment
+com/example/nutritionapp/CustomAdapterForUsersList.java
+ com.example.nutritionapp.CustomAdapterForUsersList
+com/example/nutritionapp/CustomAdapterForChat.java
+ com.example.nutritionapp.CustomAdapterForChat
+ com.example.nutritionapp.CustomAdapterForChat$1
+ com.example.nutritionapp.CustomAdapterForChat$2
+ com.example.nutritionapp.CustomAdapterForChat$3
+ com.example.nutritionapp.CustomAdapterForChat$MyListener
+com/example/nutritionapp/BaseActivity.java
+ com.example.nutritionapp.BaseActivity
+com/example/nutritionapp/AddRecipeActivity.java
+ com.example.nutritionapp.AddRecipeActivity
+com/example/nutritionapp/ProfileActivity.java
+ com.example.nutritionapp.ProfileActivity
+ com.example.nutritionapp.ProfileActivity$1
+com/example/nutritionapp/UploadPictureActivity.java
+ com.example.nutritionapp.UploadPictureActivity
+ com.example.nutritionapp.UploadPictureActivity$1
+ com.example.nutritionapp.UploadPictureActivity$2
+ com.example.nutritionapp.UploadPictureActivity$3
+com/example/nutritionapp/StatusFragmentArgs.java
+ com.example.nutritionapp.StatusFragmentArgs
+ com.example.nutritionapp.StatusFragmentArgs$1
+ com.example.nutritionapp.StatusFragmentArgs$Builder
+com/example/nutritionapp/viewModel/ProfileViewModel.java
+ com.example.nutritionapp.viewModel.ProfileViewModel
+com/example/nutritionapp/MyAppGlideModule.java
+ com.example.nutritionapp.MyAppGlideModule
+com/example/nutritionapp/databinding/ActivityContactsBinding.java
+ com.example.nutritionapp.databinding.ActivityContactsBinding
+com/example/nutritionapp/databinding/ActivityChoosePictureBinding.java
+ com.example.nutritionapp.databinding.ActivityChoosePictureBinding
+com/example/nutritionapp/Model/RecipeItem.java
+ com.example.nutritionapp.model.RecipeItem
+com/example/nutritionapp/databinding/FragmentInformationListBinding.java
+ com.example.nutritionapp.databinding.FragmentInformationListBinding
+com/example/nutritionapp/databinding/ActivityShowWeightProgressBinding.java
+ com.example.nutritionapp.databinding.ActivityShowWeightProgressBinding
+com/example/nutritionapp/BuildConfig.java
+ com.example.nutritionapp.BuildConfig
+com/example/nutritionapp/MainMenuFragment.java
+ com.example.nutritionapp.MainMenuFragment
+ com.example.nutritionapp.MainMenuFragment$1
+ com.example.nutritionapp.MainMenuFragment$MyAdapter
+com/example/nutritionapp/MenuScreenActivity.java
+ com.example.nutritionapp.MenuScreenActivity
+com/example/nutritionapp/databinding/UserRowBinding.java
+ com.example.nutritionapp.databinding.UserRowBinding
+com/example/nutritionapp/RecipeListActivity.java
+ com.example.nutritionapp.RecipeListActivity
+ com.example.nutritionapp.RecipeListActivity$1
+ com.example.nutritionapp.RecipeListActivity$RecipesAdapter
+ com.example.nutritionapp.RecipeListActivity$RecipesAdapter$RecipesViewHolder
+ com.example.nutritionapp.RecipeListActivity$RecipesAdapter$RecipesViewHolder$1
+com/example/nutritionapp/databinding/ChatRowBinding.java
+ com.example.nutritionapp.databinding.ChatRowBinding
+com/example/nutritionapp/Model/Contact.java
+ com.example.nutritionapp.model.Contact
+com/example/nutritionapp/viewModel/MenuViewModel.java
+ com.example.nutritionapp.viewModel.MenuViewModel
+com/example/nutritionapp/Model/App.java
+ com.example.nutritionapp.model.App
+com/example/nutritionapp/InformationListFragment.java
+ com.example.nutritionapp.InformationListFragment
+com/example/nutritionapp/MenuFragment.java
+ com.example.nutritionapp.MenuFragment
+ com.example.nutritionapp.MenuFragment$1
+ com.example.nutritionapp.MenuFragment$2
+ com.example.nutritionapp.MenuFragment$MyAdapter
+com/example/nutritionapp/databinding/ListRowBinding.java
+ com.example.nutritionapp.databinding.ListRowBinding
+com/example/nutritionapp/SplashscreenActivity.java
+ com.example.nutritionapp.SplashscreenActivity
+ com.example.nutritionapp.SplashscreenActivity$1
+com/example/nutritionapp/Model/InformationDataItem.java
+ com.example.nutritionapp.model.InformationDataItem
+com/example/nutritionapp/ProfileFragment.java
+ com.example.nutritionapp.ProfileFragment
+ com.example.nutritionapp.ProfileFragment$1
+com/example/nutritionapp/InformationActivity.java
+ com.example.nutritionapp.InformationActivity
+ com.example.nutritionapp.InformationActivity$1
+ com.example.nutritionapp.InformationActivity$MyAdapter
+ com.example.nutritionapp.InformationActivity$MyViewHolder
+ com.example.nutritionapp.InformationActivity$MyViewHolder$1
+ com.example.nutritionapp.InformationActivity$OnItemClickListener
+com/example/nutritionapp/databinding/ActivityMenuScreenBinding.java
+ com.example.nutritionapp.databinding.ActivityMenuScreenBinding
+com/example/nutritionapp/databinding/ActivityStatusBinding.java
+ com.example.nutritionapp.databinding.ActivityStatusBinding
+com/example/nutritionapp/StatusFragment.java
+ com.example.nutritionapp.StatusFragment
+ com.example.nutritionapp.StatusFragment$1
+ com.example.nutritionapp.StatusFragment$2
+ com.example.nutritionapp.StatusFragment$3
+ com.example.nutritionapp.StatusFragment$4
+ com.example.nutritionapp.StatusFragment$5
+com/example/nutritionapp/databinding/StatusFragmentBinding.java
+ com.example.nutritionapp.databinding.StatusFragmentBinding
+com/example/nutritionapp/viewModel/StatusViewModel.java
+ com.example.nutritionapp.viewModel.StatusViewModel
+com/example/nutritionapp/databinding/ActivitySplashscreenBinding.java
+ com.example.nutritionapp.databinding.ActivitySplashscreenBinding
+com/example/nutritionapp/databinding/ActivityAllrecipesBinding.java
+ com.example.nutritionapp.databinding.ActivityAllrecipesBinding
+com/example/nutritionapp/databinding/ActivityChatBinding.java
+ com.example.nutritionapp.databinding.ActivityChatBinding
+com/example/nutritionapp/databinding/ActivityMenuScreenOldBinding.java
+ com.example.nutritionapp.databinding.ActivityMenuScreenOldBinding
+com/example/nutritionapp/databinding/ActivityLoginBinding.java
+ com.example.nutritionapp.databinding.ActivityLoginBinding
+com/example/nutritionapp/RegisterActivity.java
+ com.example.nutritionapp.RegisterActivity
+ com.example.nutritionapp.RegisterActivity$1
+ com.example.nutritionapp.RegisterActivity$1$1
+ com.example.nutritionapp.RegisterActivity$1$1$1
+ com.example.nutritionapp.RegisterActivity$2
+ com.example.nutritionapp.RegisterActivity$3
+com/example/nutritionapp/databinding/ActivityAddRecipeBinding.java
+ com.example.nutritionapp.databinding.ActivityAddRecipeBinding
+com/example/nutritionapp/LoginActivity.java
+ com.example.nutritionapp.LoginActivity
+ com.example.nutritionapp.LoginActivity$1
+ com.example.nutritionapp.LoginActivity$1$1
+ com.example.nutritionapp.LoginActivity$1$1$1
+ com.example.nutritionapp.LoginActivity$2
+com/example/nutritionapp/NutritionApp.java
+ com.example.nutritionapp.NutritionApp
+com/example/nutritionapp/databinding/ActivityInformationBinding.java
+ com.example.nutritionapp.databinding.ActivityInformationBinding
+com/example/nutritionapp/Model/MenuItem.java
+ com.example.nutritionapp.model.MenuItem
+com/example/nutritionapp/databinding/ActivityMainBinding.java
+ com.example.nutritionapp.databinding.ActivityMainBinding
+com/example/nutritionapp/Model/MyFireStorageHandler.java
+ com.example.nutritionapp.model.MyFireStorageHandler
+ com.example.nutritionapp.model.MyFireStorageHandler$1
+ com.example.nutritionapp.model.MyFireStorageHandler$2
+ com.example.nutritionapp.model.MyFireStorageHandler$3
+ com.example.nutritionapp.model.MyFireStorageHandler$4
+ com.example.nutritionapp.model.MyFireStorageHandler$5
+ com.example.nutritionapp.model.MyFireStorageHandler$EnumStatus
+ com.example.nutritionapp.model.MyFireStorageHandler$RequestCallback
+com/example/nutritionapp/ContactActivity.java
+ com.example.nutritionapp.ContactActivity
+ com.example.nutritionapp.ContactActivity$1
+ com.example.nutritionapp.ContactActivity$1$1
+ com.example.nutritionapp.ContactActivity$ContactsRecyclerViewvAdapter
+ com.example.nutritionapp.ContactActivity$ContactsRecyclerViewvAdapter$1
+ com.example.nutritionapp.ContactActivity$ContactsRecyclerViewvAdapter$2
+ com.example.nutritionapp.ContactActivity$ContactsRecyclerViewvAdapter$3
+ com.example.nutritionapp.ContactActivity$ContactsRecyclerViewvAdapter$4
+ com.example.nutritionapp.ContactActivity$ContactsRecyclerViewvAdapter$5
+ com.example.nutritionapp.ContactActivity$ContactsRecyclerViewvAdapter$ContactsViewHolder
+ com.example.nutritionapp.ContactActivity$MyOnRowControlClickListener
+com/example/nutritionapp/ChatActivity.java
+ com.example.nutritionapp.ChatActivity
+ com.example.nutritionapp.ChatActivity$1
+ com.example.nutritionapp.ChatActivity$2
+ com.example.nutritionapp.ChatActivity$3
+ com.example.nutritionapp.ChatActivity$4
+ com.example.nutritionapp.ChatActivity$4$1
+ com.example.nutritionapp.ChatActivity$5
+ com.example.nutritionapp.ChatActivity$6
+ com.example.nutritionapp.ChatActivity$7
+com/example/nutritionapp/MainActivity.java
+ com.example.nutritionapp.MainActivity
+com/example/nutritionapp/databinding/MenuFragmentBinding.java
+ com.example.nutritionapp.databinding.MenuFragmentBinding
+com/example/nutritionapp/databinding/ActivityProfileBinding.java
+ com.example.nutritionapp.databinding.ActivityProfileBinding
+com/example/nutritionapp/databinding/RecipeItemBinding.java
+ com.example.nutritionapp.databinding.RecipeItemBinding
+com/example/nutritionapp/RecipeDetailsActivity.java
+ com.example.nutritionapp.RecipeDetailsActivity
+ com.example.nutritionapp.RecipeDetailsActivity$1
+com/example/nutritionapp/databinding/ProfileFragmentBinding.java
+ com.example.nutritionapp.databinding.ProfileFragmentBinding
+com/example/nutritionapp/databinding/ContactRowBinding.java
+ com.example.nutritionapp.databinding.ContactRowBinding
+com/example/nutritionapp/databinding/ActivityBaseBinding.java
+ com.example.nutritionapp.databinding.ActivityBaseBinding
+com/example/nutritionapp/databinding/ActivityRecipeDetailsBinding.java
+ com.example.nutritionapp.databinding.ActivityRecipeDetailsBinding
+com/example/nutritionapp/StatusActivity.java
+ com.example.nutritionapp.StatusActivity
+ com.example.nutritionapp.StatusActivity$1
+ com.example.nutritionapp.StatusActivity$2
+ com.example.nutritionapp.StatusActivity$3

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusActivity">
+
+    <EditText
+        android:id="@+id/etUserWeight"
+        android:layout_width="71dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tvStatusFullName"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+        android:text="שם משתמש"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="34dp"
+        android:text="סטטוס של  "
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvStatusFullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvStatusFullName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="34dp"
+        android:text="הכנס משקל: "
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnSaveWeight"
+        android:layout_width="86dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:onClick="onBtnSaveWeightClicked"
+        android:text="שמור"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStatusFullName" />
+
+    <TextView
+        android:id="@+id/tvStatusSaveWeight"
+        android:layout_width="310dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterFatPercentage" />
+
+    <Button
+        android:id="@+id/btnShowProgress"
+        android:layout_width="137dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onBtnShowProgressClicked"
+        android:text="הצג התקדמות"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStatusSaveWeight" />
+
+    <TextView
+        android:id="@+id/tvEnterFatPercentage"
+        android:layout_width="151dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="34dp"
+        android:text="הכנס אחוז שומן:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/etEnterFatPercentage"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvEnterFatPercentage"
+        app:layout_constraintEnd_toStartOf="@+id/tvEnterFatPercentage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

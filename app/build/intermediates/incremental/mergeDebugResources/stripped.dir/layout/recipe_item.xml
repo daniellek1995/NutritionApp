@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    app:cardElevation="4dp"
+    android:backgroundTint="#F9F9FB"
+    app:cardCornerRadius="6dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center|right"
+        android:layoutDirection="rtl"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:id="@+id/recipeItemImage"
+            android:src="@drawable/logo"
+            android:layout_height="90dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="שם המתכון:"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/recipeItemName"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="קטגוריה:"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:id="@+id/recipeItemType"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/moveToRecipeIns"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="לפירוט לחץ כאן"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

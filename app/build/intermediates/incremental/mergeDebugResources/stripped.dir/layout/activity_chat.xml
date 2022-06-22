@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/tvChatTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Title"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lvChat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/etMsg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChatTitle" />
+
+    <EditText
+        android:id="@+id/etMsg"
+        android:layout_width="400dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="הקלד הודעה"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/btnSendMsg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvChat" />
+
+    <Button
+        android:id="@+id/btnSendPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="27dp"
+        android:onClick="obBtnUploadPic"
+        android:text="העלה תמונה"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSendMsg"
+        app:layout_constraintTop_toBottomOf="@+id/etMsg" />
+
+    <Button
+        android:id="@+id/btnSendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="71dp"
+        android:text="שלח"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSendPic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMsg"
+        android:onClick="onBtnSendMsgClicked"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.example.nutritionapp.MenuFragment"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/menu_fragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            />
+        <action
+            android:id="@+id/action_menuFragment_to_statusFragment"
+            app:destination="@id/statusFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.nutritionapp.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/profile_fragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.example.nutritionapp.StatusFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/status_fragment" >
+        <argument
+            android:name="email of progress owner"
+            app:argType="string"
+            android:defaultValue="none" />
+        <argument
+            android:name="fullname of progress owner"
+            app:argType="string"
+            android:defaultValue="none" />
+    </fragment>
+</navigation>

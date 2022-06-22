@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:background="#FCFEFC"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="30px">
+
+    <TextView
+        android:id="@+id/tvChatMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textColor="#090909"
+        android:textSize="40px" />
+
+    <ImageView
+        android:id="@+id/ivChatPicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="20px"
+        android:scaleType="fitXY" />
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnEditMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ערוך" />
+        <Button
+            android:id="@+id/btnDeleteMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מחק" />
+        <TextView
+            android:id="@+id/tvMsgFullName"
+            android:background="#0099ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+    />
+
+</LinearLayout>
