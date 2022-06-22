@@ -12,6 +12,6 @@
 ---
 
 ### Admin's screens  
-<img src="img/Menu-admin.JPG" width=200> <img src="img/customers-admin.JPG" width=150 height=500> <img src="img/Menu-admin.JPG" width=200>
+<img src="img/Menu-admin.JPG" width=200> <img src="img/customers-admin.JPG" width=150 height=400> <img src="img/Menu-admin.JPG" width=200>
 
 ---
