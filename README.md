@@ -6,8 +6,8 @@
 
 ---
 
-### Menu screen for users
-<img src="img/Menu-screen.png" width=250>
+### Users's screen
+<img src="img/Menu-screen.png" width=250> <img src="img/food.JPG" width=250> <img src="img/chat.JPG" width=250>
 
 ---
 
