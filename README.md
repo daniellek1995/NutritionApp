@@ -7,11 +7,11 @@
 ---
 
 ### Menu screen for users
-<img src="Menu-screen.png" width=200> <img src="img/Menu-screen.png" width=200>
+<img src="Menu-screen.png" width=200> <img src="img/Menu-screen.png" width=250>
 
 ---
 
 ### Menu screen for Admin 
-<img src="img/Menu-admin.JPG" width=250>
+<img src="img/Menu-admin.JPG" width=200>
 
 ---
