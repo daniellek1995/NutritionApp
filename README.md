@@ -7,7 +7,7 @@
 ---
 
 ### Users's screen
-<img src="img/Menu-screen.png" width=250 height=400>      <img src="img/food.PNG" width=250 height=400>
+<img src="img/Menu-screen.png" width=200 height=400>      <img src="img/food.PNG" width=200 height=400>
 
 ---
 
