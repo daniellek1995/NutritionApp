@@ -12,6 +12,6 @@
 ---
 
 ### Menu screen for Admin 
-<img src="img/Menu-admin.jpg" width=650>
+<img src="img/Menu-admin.jpeg" width=650>
 
 ---
